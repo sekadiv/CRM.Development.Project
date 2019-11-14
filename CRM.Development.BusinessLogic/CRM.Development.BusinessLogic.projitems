@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>81329709-7aa5-4cd2-a370-39f104acb8f9</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CRM.Development.BusinessLogic</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLogic\UpdateRelatedWorkorder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\BaseDataAccessLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\CrmTracing.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\DataAccessLayerFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\IAccountDataAccessLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\IBaseDataAccessLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\ICustomTracingService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\IWorkOrderDataAccessLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\WorkOrderDataAccessLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\AccountModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\TaskModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\WorkOrder.cs" />
+  </ItemGroup>
+</Project>
